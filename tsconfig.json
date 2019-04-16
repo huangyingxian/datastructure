@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs", // 编译后生成代码使用的模块系统
+        "target": "es2017",   // 编译生成的目标代码。node.js 7.x以上可以用es6/es2017, node.js 6.x使用es6
+        "noImplicitAny": false,  // 不允许隐式的any类型，必须明确写上
+        "sourceMap": true,     // 生成调试文件.js.map
+        "outDir": "src",     // 编译生成代码的目录
+        "allowJs": true,        // 是否编译js文件
+        // "compileOnSave": true,  // 保存时执行编译
+        // "strictNullChecks": true,
+        "noUnusedLocals": true,    // 禁止没有使用的变量
+        // "skipLibCheck": true,
+        "noImplicitReturns": true,    // 禁止隐式的return
+        "noFallthroughCasesInSwitch": true,    // 禁止swith表达式的fall through
+        "pretty": true,
+        "alwaysStrict": true
+    },
+    "include": [
+        "ts"
+    ]
+}

@@ -1,0 +1,11 @@
+#第三方模块
+node_modules  
+
+#vscode 配置文件
+.vscode
+
+#ts编译生成的调试文件
+*.map
+
+#package.json锁文件
+package-lock.json
