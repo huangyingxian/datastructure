@@ -121,6 +121,32 @@ class MyArray {
             this.arr[index] = newValue;
         }
     }
+    /**
+     * 根据数值，查找在有序数组中的位置
+     * @param value 需要查找的数值
+     */
+    binarySearch(value) {
+        let middle = 0;
+        let low = 0;
+        let pow = this.elements;
+        while (true) {
+            middle = parseInt(((low + pow) / 2).toString());
+            if (this.arr[middle] === value) {
+                return middle;
+            }
+            else if (low > pow) {
+                return -1;
+            }
+            else {
+                if (value > this.arr[middle]) {
+                    low = middle + 1;
+                }
+                else {
+                    pow = middle - 1;
+                }
+            }
+        }
+    }
 }
 module.exports = MyArray;
 //# sourceMappingURL=MyArray.js.map

@@ -12,6 +12,7 @@ ma.insert(30)
 ma.insert(100)
 
 ma.display()
+console.log(ma.binarySearch(20))
 
 // console.log(ma.search(101));
 // console.log(ma.getValueByIndex(2))
@@ -22,4 +23,5 @@ ma.display()
 // ma.update(0,101)
 // ma.update(1,301)
 // ma.display()
+
 
