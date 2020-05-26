@@ -2,9 +2,10 @@
 * test文件夹下是对相应数据结构类型进行测试所用，src文件夹则是主要的各种常见数据结构的实现  
 * 如要使用ts重新编译生成js代码，使用如下命令
 1. 构建  
-`tsc -p tsconfig.json`
+- 命令行 `tsc -p tsconfig.json`
 2. 监视  
-`tsc -p tsconfig.json --watch`
+- 命令行 `tsc -p tsconfig.json --watch`
+- vscode快捷键 `Ctrl + Shift + B`
 
 ---
 
